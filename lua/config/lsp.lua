@@ -2,6 +2,7 @@ vim.lsp.enable({
 	"lua_ls",
 	"csharp_ls",
 	"jsonls",
+	"gopls",
 })
 
 vim.diagnostic.config({
