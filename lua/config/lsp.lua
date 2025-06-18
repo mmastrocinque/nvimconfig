@@ -3,6 +3,7 @@ vim.lsp.enable({
 	"csharp_ls",
 	"jsonls",
 	"gopls",
+	"nushell",
 })
 
 vim.diagnostic.config({
