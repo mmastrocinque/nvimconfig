@@ -8,17 +8,15 @@
 ---
 --- The preferred way to install csharp-ls is with `dotnet tool install --global csharp-ls`.
 
-
-
-
 return {
-  cmd = { 'csharp-ls' },
- root_markers = {
+	cmd = { "csharp-ls" },
+	root_markers = {
 		".csproj",
-		".sln"},
-    
-  filetypes = { 'cs' },
-  init_options = {
-    AutomaticWorkspaceInit = true,
-  },
+		".sln",
+	},
+
+	filetypes = { "cs" },
+	init_options = {
+		AutomaticWorkspaceInit = true,
+	},
 }
