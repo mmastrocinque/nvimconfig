@@ -3,11 +3,11 @@ return {
 	config = function()
 		-- Lua:
 		-- For dark theme (neovim's default)
-		vim.o.background = 'dark'
+		vim.o.background = "dark"
 		-- For light theme
 
-		local c = require('vscode.colors').get_colors()
-		require('vscode').setup({
+		local c = require("vscode.colors").get_colors()
+		require("vscode").setup({
 			-- Alternatively set style in setup
 			-- style = 'light'
 
@@ -28,7 +28,7 @@ return {
 
 			-- Override colors (see ./lua/vscode/colors.lua)
 			color_overrides = {
-				vscLineNumber = '#FFFFFF',
+				vscLineNumber = "#FFFFFF",
 			},
 
 			-- Override highlight groups (see ./lua/vscode/theme.lua)
@@ -36,11 +36,11 @@ return {
 				-- this supports the same val table as vim.api.nvim_set_hl
 				-- use colors from this colorscheme by requiring vscode.colors!
 				Cursor = { fg = c.vscDarkBlue, bg = c.vscLightGreen, bold = true },
-			}
+			},
 		})
 		-- require('vscode').load()
 
 		-- load the theme without affecting devicon colors.
-		vim.cmd.colorscheme "vscode"
-	end
+		vim.cmd.colorscheme("vscode")
+	end,
 }
