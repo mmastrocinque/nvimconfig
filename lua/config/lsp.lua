@@ -4,6 +4,7 @@ vim.lsp.enable({
 	"jsonls",
 	"gopls",
 	"nushell",
+	"rust_analyzer"
 })
 
 vim.diagnostic.config({
