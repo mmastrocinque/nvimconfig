@@ -68,6 +68,12 @@ return {
 			desc = "Format File",
 			"Format",
 		},
+		{
+			"grr",
+			vim.lsp.buf.references,
+			desc = "List references",
+			"List References",
+		},
 		{ "<leader>v", "<cmd>vsplit | lua vim.lsp.buf.definition()<cr>", "Goto Definition in Vertical Split" },
 	},
 }
