@@ -35,6 +35,7 @@ return {
 				lua = { "stylua" },
 				json = { "fixjson" },
 				cs = { "csharpier" },
+				rust = { "rustfmt" },
 			},
 			-- format_on_save = {
 			--     lsp_fallback = true,
