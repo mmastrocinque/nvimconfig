@@ -36,6 +36,7 @@ return {
 				json = { "fixjson" },
 				cs = { "csharpier" },
 				rust = { "rustfmt" },
+				jsonc = { "deno_fmt" },
 			},
 			-- format_on_save = {
 			--     lsp_fallback = true,
