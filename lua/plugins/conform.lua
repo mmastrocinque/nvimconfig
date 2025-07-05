@@ -37,6 +37,7 @@ return {
 				cs = { "csharpier" },
 				rust = { "rustfmt" },
 				jsonc = { "deno_fmt" },
+				cpp = { "clang-format" },
 			},
 			-- format_on_save = {
 			--     lsp_fallback = true,
