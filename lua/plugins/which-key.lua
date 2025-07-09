@@ -49,6 +49,7 @@ return {
 			desc = "Goto Declaration",
 			"Goto Declaration",
 		},
+		{ "gd", vim.lsp.buf.definition, desc = "Goto Definitinon", "Goto Definition" },
 		{
 			"<leader>la",
 			vim.lsp.buf.code_action,

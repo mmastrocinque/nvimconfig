@@ -1,5 +1,5 @@
 {
-  "blink.cmp": { "branch": "main", "commit": "6d6b0092cfe570ade9b183cd53bb1a620290d02b" },
+  "blink.cmp": { "branch": "main", "commit": "f66e22e3003c9dfe2eb7cddb4d314a57e48ac752" },
   "conform.nvim": { "branch": "master", "commit": "973f3cb73887d510321653044791d7937c7ec0fa" },
   "csharpls-extended-lsp.nvim": { "branch": "master", "commit": "0dfdad289419e414a6d49d25cb97b8908e6fbe97" },
   "lazy.nvim": { "branch": "main", "commit": "6c3bda4aca61a13a9c63f1c1d1b16b9d3be90d7a" },
